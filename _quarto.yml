@@ -1,0 +1,28 @@
+project:
+  type: default
+  execute-dir: project
+  output-dir: reports
+format:
+  html:
+    toc: true
+    toc-expand: 1
+    toc-location: left
+    toc-title: Table of Contents
+    number-sections: true
+    number-depth: 3
+    embed-resources: true
+    # make code blocks foldable and open by default
+    code-fold: show
+    code-summary: "Show code"
+    code-line-numbers: true
+    code-tools: true
+    code-copy: true
+    code-download: true
+  typst:
+    documentclass: article
+    toc: true
+    toc-separate: true
+    number-sections: true
+    number-depth: 3
+    mainfont: Times New Roman
+    toc-title: "Table of Contents"
